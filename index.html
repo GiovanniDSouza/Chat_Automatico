@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="botaoStart" onclick="help()" id="botaoStartId">
+            <div class="live-help-icon">
+                <div class="triangulo"></div>
+            </div>
+              
+        </div>
+        <div class="tela">
+            <div class="barraClose">
+                <i class="fa fa-close" style="font-size:25px;" onclick="clos()"></i>
+            </div>
+            
+            <div class="lista" id="lista">
+            </div>
+            <div class="botaoEnvio" >
+              
+                <textarea id="nome" placeholder="Digite sua mensagem aqui" class="texto-multilinha"></textarea>
+                 <button id="btFechar">Enviar</button>
+            </div>
+        </div>
+        
+    </div>
+    
+  <script src="style.js"></script>
+</body>
+</html>
